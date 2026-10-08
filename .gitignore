@@ -1,0 +1,22 @@
+# 本地索引与缓存（含真实文件元数据与缩略图，绝不入库）
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 打包产物
+build/
+dist/
+*.spec
+
+# 可执行文件（通过 GitHub Releases 分发）
+*.exe
+
+# 日志
+*.log
+
+# 编辑器
+.idea/
+.vscode/
